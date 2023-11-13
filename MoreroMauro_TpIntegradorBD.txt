@@ -1,0 +1,27 @@
+create database integrador_cac;
+
+use integrador_cac;
+
+create table oradores
+(
+id_orador int auto_increment primary key,
+nombre varchar(30) not null,
+apellido varchar(30) not null,
+mail varchar (50) not null,
+tema varchar (50) not null,
+fecha_alta date
+);
+
+insert into oradores 
+values  (1,"Pedro","Juarez","pedrojuarez3243@gmail.com","Las Bases de Datos no Relacionales","2023-11-25"),
+	(2,"Benjamin","Morero","BenjaminMorero@gmail.com","Fundamentos de la Programación","2023-11-25"),
+	(3,"Dalma","Maslaton","Dalma43Maslaton@gmail.com","Historia de la web","2023-11-25"),
+	(4,"Javier","Liberol","Javier.Liberol@gmail.com","Base de datos relacionales","2023-11-26"),
+	(5,"Sofia","Maroni","SofiacMaroni@hotmail.com","Introduccion a Java","2023-11-26"),
+	(6,"Ivan","Soria","ivanS24@gmail.com","Html 5 y Css 3","2023-11-26"),
+	(7,"Juan","Garcia","juanjgar@hotmail.com","Desarrollo web","2023-11-27"),
+	(8,"Alfredo","Leon","AlfredoLeon46@yahoo.com","Diseño UX/UI","2023-11-27"),
+	(9,"Rosa","Alfaro","rosa_Alfaroi@gmail.com","Ciberseguridad","2023-11-27"),
+	(10,"Demian","Frut","demian34frut@gmail.com","Inteligencia Artificial","2023-11-27")
+;
+	
